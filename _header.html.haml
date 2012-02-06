@@ -6,21 +6,26 @@
           Triad USGBC Logo
   .ten.columns
     %ul.nav-bar
-      %li
-        %a{:href => '#about-us'}
+      %li.has-flyout
+        %a{:href => '#about-us', :class => 'main'}
           About Us
+        %a{:href => '#', :class => 'flyout-toggle'}
+          %span
+        .flyout.small
+          %a{:href => '#'}
+            I go nowhere
       %li
-        %a{:href => '#membership'}
+        %a{:href => '#membership', :class => 'main'}
           Membership
       %li
-        %a{:href => '#event-calendar'}
+        %a{:href => '#event-calendar', :class => 'main'}
           Event Calendar
       %li
-        %a{:href => '#advocacy'}
+        %a{:href => '#advocacy', :class => 'main'}
           Advocacy
       %li
-        %a{:href => '#sponsorship'}
+        %a{:href => '#sponsorship', :class => 'main'}
           Sponsorship
       %li
-        %a{:href => '#sponsorship'}
+        %a{:href => '#sponsorship', :class => 'main'}
           Resources
